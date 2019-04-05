@@ -8,8 +8,7 @@
     </head>
     <body>
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <!-- <a class="navbar-brand" href="#">Scot Newbury - Web Developer</a> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,14 +19,24 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#about">About Me </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me </a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
 
-      <div class="myProjects">
+      <div class="about text-center" id="about">
+        <h1>This is the about section</h1>
+      </div>
+
+      <div class="myProjects" id="projects">
 
         <div class="card" style="width: 18rem;">
           <img src="gradient-background.png" class="card-img-top" alt="Gradient Background">
@@ -86,6 +95,10 @@
           </div>
         </div>
 
+      </div>
+
+      <div class="contact text-center" id="contact">
+        <h1>This is the contact section</h1>
       </div>
 
       <div class="footer text-center">
