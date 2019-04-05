@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to right, #21bbb2, #0747c3);
+}
+h1 {
+  font-size: 3em;
+  color: orange;
+}
+
+.navbar a:hover {
+	background-color: red;
+  color: #fff
+	/* color: rgb(108,202,202); */
+}
+
+.myProjects {
+  display: flex;
+  flex-wrap: wrap;;
+  justify-content: space-around;
+}
+
+.footer {
+  background: blue;
+}
