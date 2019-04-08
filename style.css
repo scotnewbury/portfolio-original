@@ -1,6 +1,12 @@
-body {
-  padding-top: 50px;
+:root {
+  --menu-padding: 50px;
 }
+
+body {
+  height: 4000px;
+  /* background: gray; */
+}
+
 h1 {
   font-size: 3em;
   color: orange;
@@ -12,13 +18,23 @@ h1 {
 	/* color: rgb(108,202,202); */
 }
 
-.about {
+.masthead {
+  padding-top: var(--menu-padding);
+  position: relative;
   width: 100%;
-  height: 300px;
-  background: linear-gradient(to left, #21bbb2, #0747c3);
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-image: url("./graphics/landing-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* background: linear-gradient(to left, #21bbb2, #0747c3); */
 }
 
 .myProjects {
+  padding-top: var(--menu-padding);
   display: flex;
   flex-wrap: wrap;;
   justify-content: space-around;
@@ -26,10 +42,12 @@ h1 {
 }
 
 .contact {
+  padding-top: var(--menu-padding);
   background: linear-gradient(to left, #21bbb2, #0747c3);
   height: 300px;
 }
 
 .footer {
+  padding-top: var(--menu-padding);
   background: blue;
 }
