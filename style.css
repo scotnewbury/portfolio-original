@@ -5,8 +5,7 @@
 }
 
 body {
-  /* height: 4000px; */
-  /* background: gray; */
+  background-color: #193543;
 }
 
 h1 {
@@ -73,6 +72,6 @@ h3 {
 }
 
 .footer {
-  /* padding-top: var(--menu-padding); */
-  padding: 10px 0px 10px 0px;
+  color: white;
+  padding: 20px 0px 10px 0px;
 }
