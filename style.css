@@ -1,3 +1,5 @@
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+
 :root {
   --menu-padding: 50px;
 }
@@ -54,11 +56,23 @@ h3 {
 
 .contact {
   padding-top: var(--menu-padding);
-  background-color: #869da5;
-  height: 300px;
+  width: 100%;
+  height: 100vh;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("./images/masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.fab, .fas {
+  font-size: 3rem;
+  color: #193543;
 }
 
 .footer {
-  padding-top: var(--menu-padding);
-  background: blue;
+  /* padding-top: var(--menu-padding); */
+  padding: 10px 0px 10px 0px;
 }
