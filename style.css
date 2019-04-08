@@ -45,7 +45,7 @@ h3 {
 
 .myprojects {
   padding-top: var(--menu-padding);
-  padding: 10rem 0;
+  /* padding: 10rem 0; */
   background: linear-gradient(to bottom, #193543, #869da5);
 }
 
