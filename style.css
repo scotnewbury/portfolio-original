@@ -43,10 +43,12 @@ h3 {
 
 .myProjects {
   padding-top: var(--menu-padding);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  padding: 10rem 0;
   background: linear-gradient(to right, #21bbb2, #0747c3);
+}
+
+.myProjects .featured-text {
+  padding: 2rem;
 }
 
 .contact {

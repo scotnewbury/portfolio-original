@@ -13,7 +13,9 @@
     <body id="page-top">
       <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
-
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
@@ -35,67 +37,64 @@
         <h3>Web Developer and Technology Enthusiast</h3>
       </div>
 
-      <div class="myProjects" id="projects">
-        <h2>My Projects</h2>
-        <div class="card" style="width: 18rem;">
+      <!-- Projects Section -->
+        <section id="projects" class="myProjects bg-light">
+          <div class="container">
 
-          <img src="./images/gradient-background.png" class="card-img-top" alt="Gradient Background">
-          <div class="card-body">
-            <h5 class="card-title">Background Generator</h5>
-            <p class="card-text">This project provides the linear gradient syntax based on either a randomly genereated or user selected color pairing.</p>
-            <p class="card-text"><a target="blank" href="https://github.com/scotnewbury/Gradient-Background">Jump to Github Repository</a></p>
-            <a target="blank" href="https://newbury-gradient-background.netlify.com" class="btn btn-primary">Jump to live view</a>
+            <div class="row justify-content-center mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="./images/monster-mob.png" alt="">
+              </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                      <h4 class="text-white">Monster Mob!</h4>
+                      <p class="mb-0 text-white-50">A React.js app that pulls from the JSONPlaceholder API and displays ID cards from the data.</p>
+                      <hr class="d-none d-lg-block mb-0 mr-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="row justify-content-center mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="./images/gradient-background.png" alt="Gradient Background">
+              </div>
+              <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">Gradient Background Generator</h4>
+                      <p class="mb-0 text-white-50">This project provides the linear gradient syntax based on either a randomly genereated or user selected color pairing.</p>
+                      <hr class="d-none d-lg-block mb-0 ml-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-center mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="./images/Life-in-the-Wild.png" alt="">
+              </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                      <h4 class="text-white">Life in the Wild</h4>
+                      <p class="mb-0 text-white-50">This project pulls random images from Unsplash using fetch.</p>
+                      <hr class="d-none d-lg-block mb-0 mr-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
-        </div>
+        </section>
 
-        <div class="card" style="width: 18rem;">
-          <img src="./images/Life-in-the-Wild.png" class="card-img-top" alt="Life in the Wild">
-          <div class="card-body">
-            <h5 class="card-title">Life in the Wild</h5>
-            <p class="card-text">This project pulls random images from Unsplash using fetch.</p>
-            <p class="card-text"><a target="blank" href="https://github.com/scotnewbury/Image-Gallery">Jump to Github Repository</a></p>
-            <a target="blank" href="https://newbury-image-gallery.netlify.com/" class="btn btn-primary">Jump to live view</a>
-          </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="./images/monster-mob.png" class="card-img-top" alt="Monster Mob React App">
-          <div class="card-body">
-            <h5 class="card-title">Monster Mob</h5>
-            <p class="card-text">A React.js app that pulls from the JSONPlaceholder API and displays ID cards from the data.</p>
-            <p class="card-text"><a target="blank" href="https://github.com/scotnewbury/monster-mob">Jump to Github Repository</a></p>
-            <a target="_blank" href="https://monster-mob.netlify.com/" class="btn btn-primary">Jump to live view</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="./images/epcot-globe.jpg" class="card-img-top" alt="Epcot Globe">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="./images/epcot-globe.jpg" class="card-img-top" alt="Epcot Globe">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="./images/epcot-globe.jpg" class="card-img-top" alt="Epcot Globe">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-      </div>
 
       <div class="contact text-center" id="contact">
         <h1>This is the contact section</h1>
