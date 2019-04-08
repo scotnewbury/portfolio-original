@@ -3,27 +3,37 @@
 }
 
 body {
-  height: 4000px;
+  /* height: 4000px; */
   /* background: gray; */
 }
 
 h1 {
   font-size: 3em;
-  color: orange;
+  text-align: center;
+  color: #ffa500;
+}
+
+h2 {
+  text-align: center;
+  width: 100vw;
+}
+
+h3 {
+  text-align: center;
 }
 
 .navbar a:hover {
-	background-color: red;
+  background-color: red;
   color: #fff
 	/* color: rgb(108,202,202); */
 }
 
 .masthead {
   padding-top: var(--menu-padding);
-  position: relative;
-  width: 100%;
+  /* position: relative; */
+  width: 100vw;
   height: auto;
-  min-height: 35rem;
+  min-height: 45rem;
   padding: 15rem 0;
   background-image: url("./graphics/landing-background.jpg");
   background-position: center;
@@ -36,7 +46,7 @@ h1 {
 .myProjects {
   padding-top: var(--menu-padding);
   display: flex;
-  flex-wrap: wrap;;
+  flex-wrap: wrap;
   justify-content: space-around;
   background: linear-gradient(to right, #21bbb2, #0747c3);
 }
