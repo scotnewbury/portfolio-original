@@ -10,7 +10,7 @@ body {
 h1 {
   font-size: 3em;
   text-align: center;
-  color: #ffa500;
+  color: #193543;
 }
 
 h2 {
@@ -20,6 +20,7 @@ h2 {
 
 h3 {
   text-align: center;
+  color: #193543;
 }
 
 .navbar a:hover {
@@ -44,7 +45,7 @@ h3 {
 .myprojects {
   padding-top: var(--menu-padding);
   padding: 10rem 0;
-  background: linear-gradient(to right, #21bbb2, #0747c3);
+  background: linear-gradient(to bottom, #193543, #869da5);
 }
 
 .myprojects .featured-text {
@@ -53,7 +54,7 @@ h3 {
 
 .contact {
   padding-top: var(--menu-padding);
-  background: linear-gradient(to left, #21bbb2, #0747c3);
+  background-color: #869da5;
   height: 300px;
 }
 
