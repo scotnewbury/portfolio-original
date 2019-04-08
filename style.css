@@ -41,13 +41,13 @@ h3 {
   background-size: cover;
 }
 
-.myProjects {
+.myprojects {
   padding-top: var(--menu-padding);
   padding: 10rem 0;
   background: linear-gradient(to right, #21bbb2, #0747c3);
 }
 
-.myProjects .featured-text {
+.myprojects .featured-text {
   padding: 2rem;
 }
 
