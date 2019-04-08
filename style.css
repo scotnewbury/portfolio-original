@@ -31,11 +31,11 @@ h3 {
 .masthead {
   padding-top: var(--menu-padding);
   /* position: relative; */
-  width: 100vw;
+  width: 100%;
   height: auto;
-  min-height: 45rem;
+  min-height: 35rem;
   padding: 15rem 0;
-  background-image: url("./graphics/landing-background.jpg");
+  background-image: url("./images/masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
