@@ -11,8 +11,8 @@ function Header() {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <Link to = "/" class="nav-link">Home <span class="sr-only">(current)</span></Link>
+              <li class="nav-item">
+                <Link to = "/" class="nav-link">Home</Link>
               </li>
               <li class="nav-item">
                 <Link to = "/projects" class="nav-link">My Projects</Link>
