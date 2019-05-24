@@ -4,7 +4,7 @@ import '../../App.css';
 export class Footer extends Component {
   render() {
     return (
-      <div class="footer text-center">
+      <div className="footer text-center">
       <p>Copyright &copy; Scot Newbury 2019</p>
     </div>
     )
