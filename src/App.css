@@ -36,3 +36,37 @@ h3 {
   background-attachment: scroll;
   background-size: cover;
 }
+
+.myprojects {
+  padding-top: var(--menu-padding);
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, #193543, #869da5);
+} 
+
+
+.myprojects .featured-text {
+  padding: 2rem;
+}
+
+.contact {
+  padding-top: var(--menu-padding);
+  width: 100%;
+  height: 100vh;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("./images/masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.fab, .fas {
+  font-size: 3rem;
+  color: #193543;
+}
+
+.footer {
+  color: #869da5;
+  padding: 20px 0px 10px 0px;
+}
