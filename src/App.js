@@ -14,9 +14,12 @@ export class App extends Component {
           <Header />
           <Route exact path = "/" render = {props => (
             <React.Fragment>
-              <div className="masthead">
+              <div className="masthead text-center">
                 <h1>Scot Newbury</h1>
                 <h3>Web Developer and Technology Enthusiast</h3>
+                <a href="https://github.com/scotnewbury"><i className="fab fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/scotnewbury"><i className="fab fa-linkedin"></i></a>
+                <a href="mailto:scot@scotnewbury.com"><i className="fas fa-envelope"></i></a>
               </div>
           </React.Fragment>
           )} />
