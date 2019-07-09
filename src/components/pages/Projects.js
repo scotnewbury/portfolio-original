@@ -14,7 +14,7 @@ function Projects() {
           <div className="bg-black text-center h-100 project">
             <div className="d-flex h-100">
               <div className="project-text w-100 my-auto text-center text-lg-left">
-                <h4 className="text-white">Facial Recognition App</h4>
+                <h4 className="text-white">Magic Brain - Facial Recognition App</h4>
                 <div className="mb-0 text-white-50">
                   <p>This project allows a user to register with the site and enter the URL of a picture.
                      It will then place a box around a face in the image if one is found.</p>
