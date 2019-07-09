@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Projects from './components/pages/Projects';
-import ContactMe from './components/pages/ContactMe';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import './App.css';
@@ -24,7 +23,6 @@ export class App extends Component {
           </React.Fragment>
           )} />
           <Route path = "/projects" component = {Projects} />
-          <Route path = "/contactme" component = {ContactMe} />
         </div>
         <Footer />
       </Router>

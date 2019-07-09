@@ -24,6 +24,14 @@ h3 {
   color: #193543;
 }
 
+img {
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(.95);
+}
+
 .masthead {
   position: relative;
   width: 100%;

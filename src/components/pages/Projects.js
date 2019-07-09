@@ -8,7 +8,9 @@ function Projects() {
 
       <div className="row justify-content-center mb-5 mb-lg-0">
         <div className="col-lg-6">
-          <img className="img-fluid" src={require('../../images/facial-recognition-app.png')} alt={"An app that recognizes faces"} />
+          <a href="https://newbury-smart-brain.herokuapp.com/">
+            <img className="img-fluid" src={require('../../images/facial-recognition-app.png')} alt={"An app that recognizes faces"} />
+          </a>
         </div>
         <div className="col-lg-6">
           <div className="bg-black text-center h-100 project">
@@ -36,7 +38,9 @@ function Projects() {
 
       <div className = "row justify-content-center mb-5 mb-lg-0">
         <div className="col-lg-6">
-          <img className="img-fluid" src={require('../../images/monster-mob.png')} alt={"Monster Mob!"} />
+          <a href="https://monster-mob.netlify.com">
+            <img className="img-fluid" src={require('../../images/monster-mob.png')} alt={"Monster Mob!"} />
+          </a>
         </div>
         <div className="col-lg-6 order-lg-first">
           <div className="bg-black text-center h-100 project">
@@ -60,7 +64,9 @@ function Projects() {
 
       <div className="row justify-content-center mb-5 mb-lg-0">
         <div className="col-lg-6">
-          <img className="img-fluid" src={require('../../images/A-Simple-ToDo-List.png')} alt={"A Simple ToDo List"} />
+          <a href="https://react-crash-course-todolist.netlify.com/">
+            <img className="img-fluid" src={require('../../images/A-Simple-ToDo-List.png')} alt={"A Simple ToDo List"} />
+          </a>
         </div>
         <div className="col-lg-6">
           <div className="bg-black text-center h-100 project">
