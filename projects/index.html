@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
     <title>Scot Newbury's Portfolio</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/projects.html">Projects</a></li>
       </ul>
     </nav>
+    <header class="project-header">
+      <h1>My Projects</h1>
+    </header>
     <main class="container">
       <section class="card">
-        <img src="img/facial-recognition-app.png" alt="Painting" />
+        <img src="img/facial-recognition-app.png" alt="Facial Recognition App" />
         <div>
           <h3>Magic Brain - Facial Recognition App</h3>
           <p>
@@ -28,8 +33,8 @@
         </div>
       </section>
 
-      <section class="card">
-        <img src="img/monster-mob.png" alt="Painting" />
+      <section class="card" data-aos="fade-left">
+        <img src="img/monster-mob.png" alt="Monster Mob App" />
         <div>
           <h3>Monster Mob!</h3>
           <p>
@@ -42,8 +47,8 @@
         </div>
       </section>
 
-      <section class="card">
-        <img src="img/A-Simple-ToDo-List.png" alt="Painting" />
+      <section class="card" data-aos="fade-right">
+        <img src="img/A-Simple-ToDo-List.png" alt="Todo List" />
         <div>
           <h3>A Simple ToDo List</h3>
           <p>
@@ -55,6 +60,12 @@
           <a href="#" class="btn">Add buttons</a>
         </div>
       </section>
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          offset: 200,
+          duration: 1000
+        });
+      </script>
   </body>
 </html>
