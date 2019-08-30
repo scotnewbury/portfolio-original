@@ -10,9 +10,9 @@ An application that allows a user, after registering, to submit the URL of an im
 
 Written using React and Node.js, utilizing a PostgreSQL database and the Clarifai image recognition API.
 
-## Monster Mob!
+## Monster Mob
 
-A 'directory listing' of monsters with contact information. 
+A 'directory listing' of monsters with contact information.
 
 Written using React and pulls information JSONPlaceholder API and Robohash.org.
 
