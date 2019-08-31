@@ -13,6 +13,56 @@ img {
   width: 100%;
 }
 
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Home Page */
+
+.home-page {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  background: url('../img/masthead.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+  overflow: hidden;
+}
+
+.home-page p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.home-page ul {
+  list-style: none;
+  display: flex;
+}
+
+.home-page li {
+  padding: 0 1.5rem;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope {
+  font-size: 3rem;
+}
+
+.fa-linkedin {
+  /* font-size: 3rem; */
+}
+
+/* Project Page */
 .container {
   max-width: 1100px;
   margin: auto;
@@ -29,12 +79,6 @@ img {
   text-align: center;
   padding: 2rem;
   color: #f1f1f1;
-}
-
-.project-header h1 {
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  line-height: 1.2;
 }
 
 /* Project Cards */
@@ -67,7 +111,7 @@ img {
 .navbar {
   background-color: #3b5998;
   overflow: hidden;
-  height: 63px;
+  height: 4rem;
 }
 
 .navbar a {
@@ -140,6 +184,9 @@ img {
 }
 
 @media (min-width: 48rem) {
+  .home-page {
+    height: 92vh;
+  }
   .open-slide {
     display: none;
   }
