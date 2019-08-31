@@ -9,12 +9,24 @@
   </head>
   <body>
     <nav class="navbar">
-      <ul>
+      <span class="open-slide" onclick="openSlideMenu()">
+        <a href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </span>
+      <ul class="navbar-nav">
         <li><a href="/">Home</a></li>
         <li><a href="/projects">Projects</a></li>
       </ul>
     </nav>
-    <main>
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="/">Home</a>
+      <a href="/projects">Projects</a>
+    </div>
+
+    <main id="main">
       <h1>Scot Newbury</h1>
       <p>Web Professional and Technology Enthusiast</p>
       <ul>
@@ -23,5 +35,7 @@
         <li><a href="mailto:scot@scotnewbury.com">email</a></li>
       </ul>
     </main>
+    <script src="https://kit.fontawesome.com/a5a1e9343b.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
