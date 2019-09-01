@@ -2,11 +2,11 @@
 
 A responsive site used to show websites and projects that I have created or contributed to.
 
-## Current Websites
+<!-- ## Current Websites
 
 ### St Mark's Lodge
 
-A Wordpress based site using a custom theme that provide information and newsworthy content.
+A Wordpress based site using a custom theme that provide information and newsworthy content. -->
 
 ## Current projects highlighted include:
 
