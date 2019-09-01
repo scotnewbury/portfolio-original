@@ -195,6 +195,10 @@ h1 {
     display: none;
   }
 
+  .portfolio-header {
+    height: 92vh;
+  }
+
   .card {
     display: block;
   }
