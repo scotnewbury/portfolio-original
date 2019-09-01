@@ -84,12 +84,12 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
   color: #f1f1f1;
   background: url('../img/portfolio-hero.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
 .portfolio-header h1 {
@@ -102,9 +102,9 @@ h1 {
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  /* grid-gap: 2rem; */
   background: #f1f1f1;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .card h3 {
