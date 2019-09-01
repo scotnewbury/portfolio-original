@@ -18,6 +18,7 @@ h1 {
   margin-bottom: 1.5rem;
   line-height: 1.2;
   text-align: center;
+  color: #193543;
 }
 
 /* Home Page */
@@ -41,6 +42,7 @@ h1 {
   margin-bottom: 1.5rem;
   line-height: 1.2;
   text-align: center;
+  color: #193543;
 }
 
 .home-page ul {
@@ -59,7 +61,12 @@ h1 {
 }
 
 .fa-linkedin {
-  /* font-size: 3rem; */
+  color: #007bb5;
+}
+
+.fa-github,
+.fa-envelope {
+  color: black;
 }
 
 /* Project Page */
@@ -70,7 +77,7 @@ h1 {
   padding: 0 2rem;
 }
 
-.project-header {
+.portfolio-header {
   height: 55vh;
   display: flex;
   flex-direction: column;
@@ -79,9 +86,19 @@ h1 {
   text-align: center;
   padding: 2rem;
   color: #f1f1f1;
+  background: url('../img/portfolio-hero.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Project Cards */
+.portfolio-header h1 {
+  color: white;
+  background: gray;
+  padding: 1rem;
+}
+
+/* Portfolio Cards */
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -109,7 +126,7 @@ h1 {
 /* Navigation */
 
 .navbar {
-  background-color: #3b5998;
+  background-color: #193543;
   overflow: hidden;
   height: 4rem;
 }
@@ -125,8 +142,8 @@ h1 {
 }
 
 .navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #f2f2f2;
+  color: #193543;
 }
 
 .navbar ul {
