@@ -16,13 +16,13 @@ An application that allows a user, after registering, to submit the URL of an im
 
 Written using React and Node.js, utilizing a PostgreSQL database and the Clarifai image recognition API.
 
-## Monster Mob
+### Monster Mob
 
 A 'directory listing' of monsters with contact information.
 
 Written using React and pulls information JSONPlaceholder API and Robohash.org.
 
-## A Simple Todo
+### A Simple Todo
 
 A simple todo list application where a user can add, mark as complete, and delete task from a task list. There is no database so the application will be reset on a browser reload.
 
